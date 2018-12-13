@@ -1,0 +1,92 @@
+html{
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+body {
+	background-image: url("galaxy.jpg");
+}
+.one {
+	background-image: url("1.jpg");
+	font-family: Cambria;
+	text-align: center;
+	padding:40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.two {
+	background-image: url("4.jpg");
+	font-family: Cambria;
+	text-align: center;
+	padding:40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.three {
+	background-image: url("dubai.jpg");
+	font-family: Cambria;
+	text-align: center;
+	padding:40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.four {
+	background-image: url("2.jpg");
+	font-family: Cambria;
+	text-align: center;
+	padding:40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.five {
+	background-image: url("1.jpg");
+	font-family: Cambria;
+	text-align: center;
+	padding:40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.six {
+	background-image: url("4.jpg");
+	font-family: Cambria;
+	text-align: center;
+	padding:40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+img {
+  border-radius: 18px;
+}
+
+button.active{
+	transform: translateY(50%);
+}
+button{
+	position: fixed;
+	width: 100px;
+	height: 30px;
+	background-color: rgb(254,215,22);
+	margin-top: 18%;
+	font-family: Old English;
+	font-size: 18px;
+	transition: 0.5s;
+}
+button:hover{
+	margin-left: 10px;
+	background-color:red;
+	border-radius: 10px;
+	width: 130px;
+	transition: 0.5s;
+}
+
